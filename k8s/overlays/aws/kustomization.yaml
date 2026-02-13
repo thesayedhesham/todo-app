@@ -1,0 +1,15 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+bases:
+  - ../../base
+
+namespace: todo-app
+
+# AWS-specific patches can go here
+patchesStrategicMerge: []
+
+commonLabels:
+  environment: aws
+  managed-by: argocd
+
