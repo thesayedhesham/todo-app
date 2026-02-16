@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: sayehesh/todo-frontend:bf25f73
+        image: sayehesh/todo-frontend:6ddadb4
         imagePullPolicy: Always  # Changed from Never for AWS
         ports:
         - containerPort: 80
