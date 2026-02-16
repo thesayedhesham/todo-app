@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: sayehesh/todo-backend:latest
+        image: sayehesh/todo-backend:ed37c2f
         imagePullPolicy: Always  # Changed from Never for AWS
         ports:
         - containerPort: 5000
